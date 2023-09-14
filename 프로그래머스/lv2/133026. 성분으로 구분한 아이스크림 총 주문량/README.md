@@ -1,4 +1,4 @@
-# [unrated] 성분으로 구분한 아이스크림 총 주문량 - 133026 
+# [level 2] 성분으로 구분한 아이스크림 총 주문량 - 133026 
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/133026) 
 
