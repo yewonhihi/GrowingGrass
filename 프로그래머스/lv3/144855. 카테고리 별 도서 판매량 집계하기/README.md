@@ -1,4 +1,4 @@
-# [Level 3] 카테고리 별 도서 판매량 집계하기 - 144855 
+# [level 3] 카테고리 별 도서 판매량 집계하기 - 144855 
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/144855) 
 
