@@ -14,11 +14,11 @@ for _ in range(m):
 distance = [float("inf")] * (n + 1)
 q = []
 
-heapq.heappush(q, (1, 0))
+heapq.heappush(q, (0, 1))
 distance[1] = 0
 
 while q:
-    now, dist = heapq.heappop(q)
+    dist, now = heapq.heappop(q)
     if distance[now] < dist:
         continue
 
@@ -26,6 +26,6 @@ while q:
         cost = distance[now] + c
         if cost < distance[b]:
             distance[b] = cost
-            heapq.heappush(q, (b, cost))
+            heapq.heappush(q, (cost, b))
 
 print(distance[n])
